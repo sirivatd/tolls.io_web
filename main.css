@@ -1,0 +1,171 @@
+#splash-video {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  display: block;
+}
+
+.header-section {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  z-index: 100;
+}
+
+.logo-text {
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+.header-menu {
+  display: flex;
+  font-size: 33px;
+}
+
+.header-menu li {
+  margin-right: 40px;
+}
+
+.header-menu li:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.header-text-section {
+  margin-top: 350px;
+  margin-left: 200px;
+  font-size: 150px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.video-button {
+  width: 400px;
+  height: 100px;
+  background-color: transparent;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 3px solid white;
+  color: white;
+}
+
+.video-button:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+}
+
+.about-section {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  margin-top: 400px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  color: grey;
+}
+
+.app-section {
+  height: 1200px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.video-section {
+  height: 1000px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  color: grey;
+}
+
+.contact-section {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.iphone-img {
+  width: 1200px;
+}
+
+.screenshot-img {
+  max-width: 375px;
+  position: absolute;
+  z-index: 50;
+  top: 280px;
+  max-height: 640px;
+  right: 430px;
+}
+
+.app-menu {
+  display: flex;
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.app-menu li {
+  margin-left: 33px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.selected {
+  border-bottom: 5px solid white;
+}
+
+.app-menu li:hover {
+  cursor: pointer;
+  border-bottom: 5px solid white;
+}
+
+.app-detail-section {
+  background-color: transparent;
+  height: 350px;
+  padding-right: 33px;
+  margin-left: 150px;
+  border-radius: 30px;
+  color: white;
+}
+
+.app-detail-text {
+  margin-left: 45px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.app-detail-text {
+  font-size: 38px;
+  font-family: "Nunito", sans-serif;
+}
+
+#pof-video {
+  border-radius: 20px;
+  max-height: 500px;
+  margin-top: 70px;
+}
